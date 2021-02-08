@@ -1,5 +1,5 @@
 # ROS_Training
-This is repo for basic ROS training
+This is a repo for basic ROS training.
 
 ## Ubuntu install of ROS Melodic
  Recommended for Ubuntu 18.04
