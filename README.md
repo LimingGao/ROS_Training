@@ -23,6 +23,7 @@ If you are new to Linux: You may find it helpful to first do a quick tutorial on
  Clone and complie source code package from git.(using packprofile to refresh hte path)
 ### ROS communication
  Master, Node, Topic, Message,Servers, see lab 01 document
+ Run a ROS node using python command to demonstrate the communication.
  commonly used command for topics and node.
 ### Writing a Simple Publisher and Subscriber
  Using Python or C++, see lab 01 and lab02 document
