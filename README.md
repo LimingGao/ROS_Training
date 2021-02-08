@@ -41,7 +41,15 @@ If you are new to Linux: You may find it helpful to first do a quick tutorial on
 ### ROS class function
 see lab 06 document
 This is a technique often used in real life robotic systems because it is very convenient to group similar tasks in the same class. For example, you would want to group any ‘Kinematics’ related methods and functions together in the same class, any ‘Computer Vision’ algorithms in a separate class and so on. This approach is much more organised than just creating a different package for every different little task you want to do on your robot
- 
+ If you are using Python, the package structure must follow these rules:
+1.The ‘[class_def].py’ file must be in ‘catkin_ws/src/[pkg_name]/src/[pkg_name]/[class_def].py’
+2.We must create a blank python file called ‘__init__.py’ in the same folder
+3.We have to uncomment the ‘catkin_python_setup()’ command in ‘CMakeLists.txt’
+4.We must create a python file called ‘setup.py’ in the same directory as ‘CMakeLists.txt’.
+
+
+
+
  
  
  
