@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="beginner_tutorials" type="listener_gao" name="sim1" output = "screen"/>
+	<node pkg="beginner_tutorials" type="talker.py" name="sim2" />
+</launch>
+

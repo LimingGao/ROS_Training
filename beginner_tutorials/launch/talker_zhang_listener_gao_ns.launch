@@ -1,0 +1,15 @@
+<launch>
+
+	<arg name = "sensor1" default = "talker_1"/>
+	<arg name = "sensor2" default = "talker_2"/>
+
+	<group ns = "$(arg sensor1)">
+		<node pkg="beginner_tutorials" type="talker.py" name="talker_zhang" output = "screen"/>
+		<param name="talker_topic" value='/hi zhang'/>
+	</group>
+	
+	<group ns = "talker_2">
+		<node pkg="beginner_tutorials" type="talker.py" name="talker_zhang" />
+	</group>
+</launch>
+
