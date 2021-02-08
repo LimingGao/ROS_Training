@@ -30,6 +30,7 @@ If you are new to Linux: You may find it helpful to first do a quick tutorial on
  
 ### Writing a Simple Simple Service and Client
  Using Python or C++, see lab 01 and lab03 document
+ Note: ##change mode, change access permission "chmod +x xxx.py"
  How to create a customer srv, see lab03 document
  
 ### Lanuch file
