@@ -15,7 +15,33 @@ This is repo for basic ROS training
 
 ## Tutorials
 If you are new to Linux: You may find it helpful to first do a quick tutorial on common command line tools for linux. A good one is [here](http://www.ee.surrey.ac.uk/Teaching/Unix/). 
+[ROS wiki Tutorial](http://wiki.ros.org/ROS/Tutorials)
 ### ROS files structures
  Workspace, packages strutures, see lab 01 document
+ Create a Workspace and package.
 ### ROS communication
- Master, Node, Topic, Message, see lab 01 document
+ Master, Node, Topic, Message,Servers, see lab 01 document
+ commonly used command for topics and node.
+### Writing a Simple Publisher and Subscriber
+ Using Python or C++, see lab 01 and lab02 document
+ How to create a customer msg, see lab02 document
+ 
+### Writing a Simple Simple Service and Client
+ Using Python or C++, see lab 01 and lab03 document
+ How to create a customer srv, see lab03 document
+ 
+### Lanuch file
+ Lanuch several nodes and setup some parameters. see lab 01 document
+
+### ROS bag file
+ record and play data, tutorial 17 and 18 at http://wiki.ros.org/ROS/Tutorials
+ 
+### ROS class function
+see lab 06 document
+This is a technique often used in real life robotic systems because it is very convenient to group similar tasks in the same class. For example, you would want to group any ‘Kinematics’ related methods and functions together in the same class, any ‘Computer Vision’ algorithms in a separate class and so on. This approach is much more organised than just creating a different package for every different little task you want to do on your robot
+ 
+ 
+ 
+ 
+
+ 
