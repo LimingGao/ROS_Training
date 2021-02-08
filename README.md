@@ -19,6 +19,8 @@ If you are new to Linux: You may find it helpful to first do a quick tutorial on
 ### ROS files structures
  Workspace, packages strutures, see lab 01 document
  Create a Workspace and package.
+ Install package from ROS.
+ Clone and complie source code package from git.
 ### ROS communication
  Master, Node, Topic, Message,Servers, see lab 01 document
  commonly used command for topics and node.
