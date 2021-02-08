@@ -14,3 +14,8 @@ This is repo for basic ROS training
  6. (optional) sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 
 ## Tutorials
+If you are new to Linux: You may find it helpful to first do a quick tutorial on common command line tools for linux. A good one is [here](http://www.ee.surrey.ac.uk/Teaching/Unix/). 
+### ROS files structures
+ Workspace, packages strutures, see lab 01 document
+### ROS communication
+ Master, Node, Topic, Message, see lab 01 document
